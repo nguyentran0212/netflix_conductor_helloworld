@@ -1,0 +1,8 @@
+{
+    "taskId": "0e8f084e-861f-4409-bbe7-1922a28395c9",
+    "workflowInstanceId": "1ab2413b-31ec-4031-a1fd-066d0bb8cc26",
+    "status": "COMPLETED",
+    "outputData": {
+	"helloOutput" : "This is output from the task hello!"
+    }
+}

@@ -1,0 +1,15 @@
+[{
+  "name": "hello_task",
+  "retryCount": 3,
+  "timeoutSeconds": 1200,
+  "inputKeys": [
+    "helloInput"
+  ],
+  "outputKeys": [
+    "helloOutput"
+  ],
+  "timeoutPolicy": "TIME_OUT_WF",
+  "retryLogic": "FIXED",
+  "retryDelaySeconds": 600,
+  "responseTimeoutSeconds": 3600
+}]

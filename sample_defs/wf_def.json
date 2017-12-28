@@ -1,0 +1,19 @@
+{
+  "name": "wf_hello",
+  "description": "Sample workflow. Simply invoke one remote service",
+  "version": 1,
+  "tasks": [
+    {
+      "name": "hello_task",
+      "taskReferenceName": "hello",
+      "type": "SIMPLE",
+      "inputParameters": {
+        "helloInput": "${workflow.input.hello}"
+      }
+    }
+  ],
+  "outputParameters": {
+    "helloOutput": "${hello.output.helloOutput}"
+  },
+  "schemaVersion": 2
+}
